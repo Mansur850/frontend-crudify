@@ -11,7 +11,7 @@ function CardForm() {
         // event - Событие 
         e.preventDefault();
         try {
-            await a.post('items/post/', {content});
+            await a.post('items/post/', ({content});
             navigate(HOME)
         } catch (err) {
             console.log(err)
